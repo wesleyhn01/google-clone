@@ -1,45 +1,36 @@
 # Modern Google Homepage Clone
 
-## Overview
-This project is a modern, dark-themed reimagining of the Google homepage. It features a sleek design with a muted green color scheme and responsive layout.
+> 🕰️ **Note:** This was one of my first coding projects — my introduction to HTML and CSS. I've kept it as-is rather than polishing it retroactively, as a marker of where I started.
 
-## Features
-- Dark mode with muted green accents
-- Responsive design for various screen sizes
-- Simplified search bar and buttons
-- Clean, minimalist aesthetic
+A dark-themed reimagining of the Google homepage, built to practice front-end fundamentals.
 
-## Technologies Used
-- HTML5
-- CSS3
+## What it demonstrates
+- Semantic HTML structure
+- CSS layout and responsive design
+- Deliberate design choices (color palette, typography)
+- Git/GitHub basics
 
-## Structure
-- `index.html`: Main HTML structure
-- `styles.css`: All styling rules and layout definitions
+## Tech stack
+`HTML5` `CSS3`
 
-## Design Choices
-- Font: Helvetica (with Arial and sans-serif fallbacks) (my favorite font family)
-- Color Palette (Matcha):
-  - Background: #1a2a1a (dark green)
-  - Main text: #c5e0c5 (light green)
-  - Accents: Various shades of green for contrast and hierarchy
+## Preview
+![screenshot placeholder](#)
 
-## Usage
-Open `index.html` in a web browser to view the page. No additional setup required.
+## Design choices
+- Font: Helvetica, with Arial/sans-serif fallback
+- Palette: dark green background (`#1a2a1a`), light green text (`#c5e0c5`)
+- Responsive layout across screen sizes
 
-## Learning Experience
-As my first HTML/CSS project, this clone represents a significant milestone in my coding journey. It has been an excellent opportunity to apply fundamental web development concepts and gain hands-on experience with:
+## Run it locally
+```bash
+git clone https://github.com/<username>/google-clone.git
+cd google-clone
+open index.html
+```
+No build step or dependencies required.
 
-- HTML structure and semantic elements
-- CSS styling and layout techniques
-- Responsive design principles
-- Version control with Git and GitHub
-
-## Future Improvements
-As I continue to learn and grow as a developer, I plan to enhance this project with:
-- JavaScript functionality
-- Improved accessibility features
-- More advanced CSS techniques (gradients,animations, etc.)
-
-## Note
-This is a static clone for educational purposes and does not include actual search functionality (yet?)
+## What I'd add if I revisited it
+This is a static UI shell without real functionality. Today I'd add:
+- Real search behavior with JavaScript
+- An accessibility pass (ARIA labels, keyboard navigation)
+- CSS transitions/animations
