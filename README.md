@@ -13,9 +13,6 @@ A dark-themed reimagining of the Google homepage, built to practice front-end fu
 ## Tech stack
 `HTML5` `CSS3`
 
-## Preview
-![screenshot placeholder](#)
-
 ## Design choices
 - Font: Helvetica, with Arial/sans-serif fallback
 - Palette: dark green background (`#1a2a1a`), light green text (`#c5e0c5`)
